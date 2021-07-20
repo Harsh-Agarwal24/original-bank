@@ -16,7 +16,7 @@ let flag = 0;
 
 // ----------------Mongoose-----------------
 
-mongoose.connect('mongodb+srv://harsh:Harsh@123@cluster0.ftquu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority/tsf',
+mongoose.connect('mongodb+srv://admin-sujal:suryashekhar@cluster0.ftquu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority/tsf',
  {useNewUrlParser:true, useFindAndModify:true}
  ).then(() => console.warn('db connection done'))
 
